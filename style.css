@@ -16,12 +16,29 @@ main {
 
 .photo-txt1,
 p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
   padding: 3vw;
+  font-size: 17px;
 }
 
-.photo-txt2,
-p {
+.photo-1 {
+  box-shadow: 20px 20px 50px 15px #642a84;
+}
+
+.photo-txt2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
   padding: 3vw;
+  font-size: 17px;
+}
+
+.photo-2 {
+  box-shadow: 20px 20px 50px 15px #642a84;
 }
 
 .banner {
@@ -35,10 +52,11 @@ p {
   border-radius: 5px;
   text-align: center;
   width: 88%;
-  font-size: 2.2em;
+  font-size: 2.5rem;
   padding: 5vw;
   margin-left: 1vw;
   margin-right: 1vw;
+ 
 }
 
 .statement {
@@ -54,6 +72,7 @@ p {
   background-color: #888;
   margin-left: 2vw;
   margin-right: 2vw;
+  box-shadow: 20px 20px 50px 15px #642a84;
 }
 
 footer {
@@ -82,7 +101,7 @@ footer h3 {
   padding: 0px;
   margin: 20px;
   border-radius: 8px;
-
+  box-shadow: 5px 5px 100px 5px #642a84;
 }
 
 .nav li {
